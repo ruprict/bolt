@@ -15,6 +15,8 @@ import (
 // The largest step that can be taken when remapping the mmap.
 const maxMmapStep = 1 << 30 // 1GB
 
+const maxMapSize = 0x7FFFFFFF
+
 // The data file format version.
 const version = 2
 
